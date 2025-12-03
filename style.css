@@ -1,0 +1,67 @@
+div {
+    border-radius: 10px;
+    background-color: aliceblue;
+    height: 80%;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+main {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    height: 100vh;
+    justify-content: center;
+}
+input[type="button"] {
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    color: white;
+    background-color: rgb(35, 187, 35);
+    padding: 5px;
+}
+input[type="text"] {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 20px;
+    width: 375px;
+    padding: 5px;
+}
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.taskItem {
+    width: 90%;
+    height: auto;
+    padding: 15px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.toDo {
+    background-color: rgb(255, 255, 190);
+}
+
+.inProgress {
+    background-color: rgb(42, 166, 210);
+}
+
+.done {
+    background-color: rgb(144, 238, 144);
+}
+
+.deleteButton {
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+    width: 25px;
+    color: white;
+    background-color: rgb(255, 80, 80);
+}
